@@ -44,7 +44,7 @@ namespace ecs {
         s_core->set3DSettings(1.0f, 1.0f, 1.0f);
 
         // Load Master bank
-        std::filesystem::path bankPath = "Assets/AudioBanks/";
+        std::filesystem::path bankPath = "Assets/Audio/AudioBanks/";
         std::filesystem::path masterBank = bankPath / "Master.bank";
         std::filesystem::path stringsBank = bankPath / "Master.strings.bank";
 

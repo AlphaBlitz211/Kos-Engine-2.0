@@ -32,6 +32,6 @@ public:
     REFLECTABLE(R_AudioStudio);
 
 private:
-    FMOD::Studio::Bank* m_bank = nullptr;           //!< Loaded FMOD bank
-    static FMOD::Studio::System* s_globalStudio;   //!< Global Studio system reference
+    FMOD::Studio::Bank* m_bank = nullptr;          //Loaded FMOD bank
+    static FMOD::Studio::System* s_globalStudio;   //Global Studio system ref
 };
